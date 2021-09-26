@@ -1,8 +1,8 @@
 Velocity Map Example
 ====================
-VME is an OpenGL 3.3 implementation of the "Per-Object Motion Blur" using "Velocity Map".
-
-![Alt text](/Images/Preview.png?raw=true "Preview")
+VME is an OpenGL 3.3 implementation of the "Per-Object Motion Blur" using "Velocity Map".<br/>
+![Alt text](/Images/Preview.png?raw=true "Preview")<br/>
+The image above shows moving object with motion-blur effect enabled(left) vs disabled(right).<br/>
 
 ## Dependencies
 - glad 0.1.34 (included)
