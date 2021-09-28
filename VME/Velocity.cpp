@@ -7,7 +7,7 @@ void Velocity::Initialize()
 
     glGenTextures(1, &Texture);
     glBindTexture(GL_TEXTURE_2D, Texture);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB16F, 624, 480, 0, GL_RGB, GL_FLOAT, NULL);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RG16F, 624, 480, 0, GL_RG, GL_FLOAT, NULL);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
